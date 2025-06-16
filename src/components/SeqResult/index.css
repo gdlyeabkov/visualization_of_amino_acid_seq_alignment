@@ -1,0 +1,40 @@
+#result {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.result-aminoAcid {
+    line-height: calc(39px + 20px);
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cysteine {
+    background-color: #ffea00;
+}
+
+.hydrophobic {
+    background-color: #67e4a6;
+}
+
+.glycine {
+    background-color: #c4c4c4;
+}
+
+.negatively-charged {
+    background-color: #fc9cac;
+}
+
+.positively-charged {
+    background-color: #bb99ff;
+}
+
+.polar-uncharged {
+    background-color: #80bfff;
+}

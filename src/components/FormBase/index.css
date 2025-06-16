@@ -1,0 +1,15 @@
+input {
+    text-transform: uppercase;
+}
+
+input::placeholder {
+    text-transform: none;
+}
+
+.input--invalid, .input--invalid:focus {
+    outline: 1px solid red;
+}
+
+.error-msg {
+    color: rgb(205, 28, 28);
+}
